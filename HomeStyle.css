@@ -2,6 +2,13 @@
 html{
     background-image: url("fondo.jpg");
     background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+body
+{
+    margin: auto;
 }
 
 .titulo
@@ -161,8 +168,14 @@ html{
 html
 {
     padding: 0%;
-    background-attachment: fixed;
+    background-attachment:fixed;
 }
+
+body
+{
+    margin: auto;
+}
+
 .titulo
 {
     margin: auto;

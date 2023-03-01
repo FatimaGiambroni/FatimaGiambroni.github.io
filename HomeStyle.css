@@ -1,1 +1,64 @@
 
+.titulo
+{
+    margin: auto;
+    width: fit-content;
+    text-align: center;
+    font-size: 2vw;
+    border: solid black 3px;
+    padding: 3vw;
+    border-radius: 10px;
+}
+
+.titulo h1
+{
+    margin-bottom: 0%;
+}
+
+.titulo p
+{
+    margin-top: 0%;
+}
+
+
+
+
+
+ul
+{
+    padding: 3vw;
+    width: max-content;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+}
+
+
+ul li
+{
+    font-size: 2vw;
+    list-style: none;
+    padding-left: 2vw;
+    padding-right: 2vw;
+
+}
+
+ul li a
+{
+    text-decoration: none;
+    color: black;
+
+}
+
+
+
+.divCajon
+{
+    width: fit-content;
+    margin: auto;
+}
+
+.cajon
+{
+    width: 50vw;
+}

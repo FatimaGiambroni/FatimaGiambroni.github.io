@@ -1,4 +1,9 @@
 
+html{
+    background-image: url("fondo.jpg");
+    background-attachment: fixed;
+}
+
 .titulo
 {
     margin: auto;
@@ -7,6 +12,7 @@
     font-size: 2vw;
     border: solid black 3px;
     padding: 3vw;
+    background-color: aliceblue;
 }
 
 .titulo h1
@@ -47,6 +53,7 @@ ul li a
     color: black;
     border: solid black 3px;
     padding: 1.5vw;
+    background-color: aliceblue;
 }
 
 
@@ -79,10 +86,7 @@ ul li a
 
 
 .contactame
-{
-    color: black;
-    border: solid black 3px;    
-    padding: 1.5vw;
+{  
     font-size: 2vw;
     text-align: center;
     width: fit-content;
@@ -95,6 +99,9 @@ ul li a
 {
     text-decoration: none;
     color: black;
+    border: solid black 3px;  
+    padding: 1.5vw;
+    background-color: aliceblue;
 }
 
 

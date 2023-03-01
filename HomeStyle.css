@@ -12,15 +12,13 @@
 .titulo h1
 {
     margin-bottom: 0%;
+    margin-top: 0%;
 }
 
 .titulo p
 {
     margin-top: 0%;
 }
-
-
-
 
 
 ul
@@ -30,7 +28,6 @@ ul
     margin: auto;
     display: flex;
     flex-direction: row;
-    border: solid black 3px;
     margin-top: 2vw;
     margin-bottom: 2vw;
 }
@@ -42,14 +39,14 @@ ul li
     list-style: none;
     padding-left: 2vw;
     padding-right: 2vw;
-
 }
 
 ul li a
 {
     text-decoration: none;
     color: black;
-
+    border: solid black 3px;
+    padding: 1.5vw;
 }
 
 
@@ -63,4 +60,141 @@ ul li a
 .cajon
 {
     width: 50vw;
+    
+}
+
+.tasa
+{
+    width: 15vw;
+    position: absolute;
+    transform: translateX(-23vw) translateY(10vw);
+    transition: 0.5s;
+}
+
+.tasa:hover
+{
+    transition: 0.5s;
+    transform: translateX(-23vw) translateY(9vw);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Media Query for devices with a maximum width of 768px (tablets and mobile devices) */
+@media only screen and (max-width: 768px) 
+{
+    
+.titulo
+{
+    margin: auto;
+    width: fit-content;
+    text-align: center;
+    font-size: 6vw;
+    border: solid black 3px;
+    padding: 3vw;
+}
+
+.titulo h1
+{
+    margin-bottom: 0%;
+    margin-top: 0%;
+}
+
+.titulo p
+{
+    margin-top: 0%;
+    font-size: 8vw;
+}
+
+
+ul
+{
+    padding: 2vw;
+    width: max-content;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    margin-top: 8vw;
+    margin-bottom: 2vw;
+    border: none;
+}
+
+
+ul li
+{
+    font-size: 10vw;
+    list-style: none;
+    padding-left: 2vw;
+    padding-right: 2vw;
+}
+
+ul li a
+{
+    text-decoration: none;
+    color: black;
+    border: solid black 3px;    
+    padding: 1.5vw;
+}
+
+
+
+.divCajon
+{
+    width: fit-content;
+    margin: auto;
+    margin-top: 10vw;
+}
+
+.cajon
+{
+    width: 95vw;
+}
+
+.tasa
+{
+    width: 30vw;
+    position: absolute;
+    transform: translateX(-40vw) translateY(20vw);
+}
+
+
 }

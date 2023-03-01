@@ -27,7 +27,7 @@ html{
 }
 
 
-ul
+.topbar
 {
     padding: 2vw;
     width: max-content;
@@ -39,7 +39,7 @@ ul
 }
 
 
-ul li
+.topbar li
 {
     font-size: 2vw;
     list-style: none;
@@ -47,7 +47,7 @@ ul li
     padding-right: 2vw;
 }
 
-ul li a
+.topbar li a
 {
     text-decoration: none;
     color: black;
@@ -64,24 +64,36 @@ ul li a
     margin: auto;
 }
 
+
+
 .cajon
 {
     width: 50vw;
     
 }
 
+.listaCajon
+{
+    padding-inline-start: 0vw;
+    display: block;
+    list-style: none;
+    transform: translateY(-35vw) translateX(20vw);
+}
+
+
 .tasa
 {
     width: 15vw;
-    position: absolute;
-    transform: translateX(-23vw) translateY(10vw);
+    position: fixed;
     transition: 0.5s;
 }
 
 .tasa:hover
 {
     transition: 0.5s;
-    transform: translateX(-23vw) translateY(9vw);
+    transform: translateY(-2vw);
+    width: 17vw;
+
 }
 
 
@@ -175,7 +187,7 @@ html
 }
 
 
-ul
+.topbar
 {
     padding: 2vw;
     width: max-content;
@@ -189,7 +201,7 @@ ul
 }
 
 
-ul li
+.topbar li
 {
     font-size: 10vw;
     list-style: none;
@@ -198,7 +210,7 @@ ul li
     margin-top: 10vw;
 }
 
-ul li a
+.topbar li a
 {
     text-decoration: none;
     color: black;
@@ -224,14 +236,13 @@ ul li a
 {
     width: 30vw;
     position: absolute;
-    transform: translateX(-40vw) translateY(20vw);
+    transform:translateY(-30vw);
 }
 
 
 .tasa:hover
 {
     transition: 0.5s;
-    transform: translateX(-40vw) translateY(20vw);
 }
 
 .contactame

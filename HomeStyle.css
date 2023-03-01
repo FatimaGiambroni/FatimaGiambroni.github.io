@@ -123,6 +123,10 @@ ul li a
 @media only screen and (max-width: 768px) 
 {
     
+html
+{
+    padding: 0%;
+}
 .titulo
 {
     margin: auto;
@@ -131,6 +135,7 @@ ul li a
     font-size: 6vw;
     border: solid black 3px;
     padding: 3vw;
+    margin-bottom: -10vw;
 }
 
 .titulo h1
@@ -152,10 +157,11 @@ ul
     width: max-content;
     margin: auto;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     margin-top: 8vw;
     margin-bottom: 2vw;
     border: none;
+    align-items: center;
 }
 
 
@@ -165,6 +171,7 @@ ul li
     list-style: none;
     padding-left: 2vw;
     padding-right: 2vw;
+    margin-top: 10vw;
 }
 
 ul li a
@@ -186,7 +193,7 @@ ul li a
 
 .cajon
 {
-    width: 95vw;
+    width: 90vw;
 }
 
 .tasa
@@ -194,6 +201,31 @@ ul li a
     width: 30vw;
     position: absolute;
     transform: translateX(-40vw) translateY(20vw);
+}
+
+
+.tasa:hover
+{
+    transition: 0.5s;
+    transform: translateX(-40vw) translateY(20vw);
+}
+
+.contactame
+{
+    color: black;
+    border: solid black 3px;    
+    padding: 1.5vw;
+    font-size: 8vw;
+    text-align: center;
+    width: fit-content;
+    margin: auto;
+    margin-top: 10vw;
+}
+
+.contactame a
+{
+    text-decoration: none;
+    color: black;
 }
 
 

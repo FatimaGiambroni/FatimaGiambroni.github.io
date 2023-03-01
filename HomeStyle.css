@@ -149,6 +149,7 @@ ul li a
 html
 {
     padding: 0%;
+    background-attachment: fixed;
 }
 .titulo
 {
@@ -235,9 +236,6 @@ ul li a
 
 .contactame
 {
-    color: black;
-    border: solid black 3px;    
-    padding: 1.5vw;
     font-size: 8vw;
     text-align: center;
     width: fit-content;
@@ -247,6 +245,8 @@ ul li a
 
 .contactame a
 {
+    border: solid black 3px;    
+    padding: 1.5vw;
     text-decoration: none;
     color: black;
 }
